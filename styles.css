@@ -1,4 +1,8 @@
 @import url("./variables.css");
+@font-face {
+  font-family: "Fira Code";
+  src: url("./fonts/FiraCode-Regular.ttf");
+}
 
 *,
 *::before,
@@ -164,7 +168,6 @@ body {
 #bookmarks {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
   margin-top: auto;
 }
 
@@ -198,6 +201,11 @@ body {
   overflow-x: hidden;
   width: 100%;
   outline: none;
+}
+
+.bookmark-group > ul > li > a:hover,
+.bookmark-group > ul > li > a:focus-visible {
+  color: #bd93f9;
 }
 
 .bookmark-group > ul > li > a:hover::before,
