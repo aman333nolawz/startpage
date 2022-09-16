@@ -62,13 +62,13 @@ const bookmarks = [
         url: "https://discord.com/app",
       },
       { label: "Instagram", url: "https://instagram.com" },
-      { label: "Github", url: "https://github.com/" },
-      { label: "Reddit", url: "https://reddit.com" },
+      { label: "Reddit", url: "https://reddit.com/" },
     ],
   },
   {
     label: "Productivity",
     bookmarks: [
+      { label: "Github", url: "https://github.com/" },
       { label: "Keybr", url: "https://keybr.com" },
       {
         label: "Monkey Type",
