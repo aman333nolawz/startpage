@@ -89,10 +89,6 @@ const bookmarks = [
         url: "https://tryhackme.com/",
       },
       {
-        label: "Hack The Box",
-        url: "https://www.hackthebox.com/",
-      },
-      {
         label: "Hack Tricks",
         url: "https://book.hacktricks.xyz/welcome/readme",
       },
